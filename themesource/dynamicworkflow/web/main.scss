@@ -1,0 +1,42 @@
+@import '../../../theme/web/custom-variables';
+
+
+@import "rd-ui.scss";
+
+@font-face {
+    font-family: "Nexa-Book";
+    font-style: normal;
+    font-weight: 400;
+    src: local("Nexa-Book"), url("fonts/Nexa-Book.woff") format("woff");
+}
+
+@font-face {
+    font-family: "Nexa-Bold";
+    font-style: normal;
+    font-weight: bold;
+    src: local("Nexa-Bold"), url("fonts/Nexa-Bold.woff") format("woff");
+}
+
+body {
+    font-family: "Nexa-Bold";
+}
+
+::-webkit-scrollbar {
+    width: 5px !important;
+    height: 5px !important;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+    background: #f1f1f1;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+    background: rgb(196, 196, 196);
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+    background-color: #c8102e;
+}
